@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_6e2b7fe9e5f3db793bc9f4344baed9fd200302d5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="6d67775a9423c6f14f1a89e8713820ccf5daffb3">
+        <dex dex="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e4842767947619e3753e01c4458d071be94ca0c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="71b1212a98eb4043786f971a4b119a3b5a329a4f">
+        <dex dex="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_881008ccc19cd1d44c50e401b0b769e3eac8edca\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_03a1bf1cb3b21ceba2b8c3ca816267430055b148\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_e9bab07e8596412e27cd041682da6c8863c94bbb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\Cha\Desktop\CommunICON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_d5441e9e16e568b9ab136ed7d5268ea83deaa8ad\classes.dex" />
+    </item>
+
+</items>

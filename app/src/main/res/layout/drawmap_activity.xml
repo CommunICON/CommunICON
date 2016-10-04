@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:titleTextColor="#fff"
+        android:theme="@style/MyTheme"
+        android:layout_columnSpan="4"
+        app:popupTheme="@style/MyTheme"
+        tools:context="com.skyversion.traveleasy.MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="CommunICON"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                style="@style/resetIconTheme"
+                android:layout_weight="0.1"
+                android:scaleType="fitCenter"
+                android:id="@+id/reset_btn"
+                android:background="@drawable/reset"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <graphics.CanvasView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.62"
+        android:layout_columnSpan="4"
+        android:layout_row="2"
+        android:layout_above="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#009688"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.38"
+        android:layout_columnSpan="4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/DrawIconTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/draw_black"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pencil_black_underlined"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:id="@+id/draw_red"
+            android:src="@drawable/pencil_red"
+            style="@style/DrawIconTheme" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/DrawIconTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pencil_green"
+            android:id="@+id/draw_green"
+            android:onClick="drawing"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            style="@style/DrawIconTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:id="@+id/draw_erase"
+            android:src="@drawable/eraser" />
+    </LinearLayout>
+
+</RelativeLayout>

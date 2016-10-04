@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/locateImgView"
+            android:src="@drawable/placeholder"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/clockImgView"
+            android:src="@drawable/ic_access_time_black_24dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/moneyImgView"
+            android:src="@drawable/money"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#009688"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="75dp"
+        android:numColumns="auto_fit"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/subIconGridView"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/mainTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </GridView>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/DrawIconTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:id="@+id/colorImageView"
+            android:scaleType="fitCenter"
+            android:src="@drawable/palette"
+            android:onClick="chooseColor"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/DrawIconTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pen"
+            android:id="@+id/drawImgView"
+            android:onClick="drawing"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/DrawIconTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/eraser"
+            android:id="@+id/eraseImgView"
+            android:onClick="removeLine"/>
+    </LinearLayout>
+</LinearLayout>
